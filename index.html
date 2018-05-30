@@ -5,32 +5,38 @@
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-3.3.1.js"></script>
     <script src="js/scripts.js"></script>
-    <title>Talk to the web page</title>
+    <title>Cat vs Dog</title>
   </head>
   <body>
+    <div class="jumbotron">
+      <h1>Cat vs Dog</h1>
+      <div class="well">A fight to the death</div>
+    </div>
     <div class="container">
-      <h1>Talk to the web page</h1>
-      <p>Click a button to say something to the web page. See what it says back!</p>
-
-      <button class="btn btn-primary" id="hello">Say "hello"</button>
-      <button class="btn btn-inverse" id="goodbye">Say "goodbye"</button>
-      <button class="btn btn-danger" id="stop">Say "stop copying me!"</button>
-
       <div class="row">
         <div class="col-md-6">
-          <h2>You said:</h2>
-          <ul class="unstyled" id="user">
+          <img src="img/maxresdefault.jpg">
+          <button class="btn btn-primary" id="cat">MEOW</button>
+          <h1>The cat goes...</h1>
+          <ul class="unstyled" id="left">
+
+          </ul>
+
+        </div>
+        <div class="col-md-6">
+          <img src="img/scroll001.jpg">
+          <button class="btn btn-danger" id="dog">BARK</button>
+          <h1>The dog goes...</h1>
+          <ul class="unstyled" id="right">
 
           </ul>
         </div>
-
-        <div class="col-md-6">
-          <h2>The web page said back:</h2>
-          <ul class="unstyled" id="webpage">
+        <div class="crazydog">
+          <button class="btn btn-primary" id="crazydog">Click me!</button>
+          <ul class="unstyled" id="doglist">
 
           </ul>
         </div>
       </div>
-    </div>
   </body>
 </html>
